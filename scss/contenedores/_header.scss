@@ -1,0 +1,25 @@
+/* estilos de header*/
+
+header{
+    background-color: $color-fondo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    h1{
+        color: $color-texto;
+    }
+    nav{
+        ul{
+            list-style:none;
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            gap: 1rem;
+            li{
+                color: $color-texto;
+            }
+        }
+    }
+
+}

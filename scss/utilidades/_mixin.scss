@@ -1,0 +1,10 @@
+// mixin con parametros
+
+@mixin medidas($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+}
+
+
+// mixin sin parametros

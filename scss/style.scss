@@ -1,0 +1,21 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    color: $color-fondo;
+}
+
+// importando archivos secundarios
+
+@import "utilidades/variables";
+@import"utilidades/mixin";
+@import "contenedores/header";
+
+main{
+    @include medidas(400px, 700px, tomato);
+}
